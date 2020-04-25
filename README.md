@@ -1,13 +1,13 @@
 # Test Task
 ## API endpoints:
-1. ```GET: metrics/start_at=2020-01-01&end_at=2020-01-09``` - returns standart deviation and average value the exchange rate of all currencies for the specified time period
+1. ```GET: metrics/start_at=2020-03-01&end_at=2020-03-25``` - returns standart deviation and average value the exchange rate of all currencies for the specified time period
 ![GET Request](https://i.imgur.com/5R3KnbZ.png)  
 
 
-2. ```GET: metrics/correlation/start_at=2020-03-23&end_at=2020-03-25&symbols=ILS,JPY``` - returns correlation between two currency pairs (CUR1-EUR, CUR2-EUR) for the specified time period
+2. ```GET: metrics/correlation/start_at=2020-03-01&end_at=2020-03-25&symbols=CAD,HKD``` - returns correlation between two currency pairs (CUR1-EUR, CUR2-EUR) for the specified time period
 ![GET Request](https://i.imgur.com/QuVd8xM.png)  
 
-For ease of entering data: you can go to ```http://localhost:8000/metrics/```
+For convenient data entry, you can go to [this page](http://localhost:8000/metrics/).
 
 ## Get the source code
 Go to the directory you want to see this project in. Now you can get all the source code of this project using git clone command.
