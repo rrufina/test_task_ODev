@@ -15,6 +15,9 @@ Go to the directory you want to see this project in. Now you can get all the sou
 > git clone https://github.com/rrufina/test_task_ODev
 ```
 
+## Documentation
+To view the documentation you need to run the appplication and go [here](http://localhost:8000/redoc/).
+
 ## Deployment using Docker
 ### Change environmental variables
 Now you can see example.env with such content inside it:
@@ -33,5 +36,9 @@ Now you need build our application, to do this use the following command:
 > docker-compose up --build -d
 ```
 
-## Documentation
-To view the documentation you need to run the appplication and go [here](http://localhost:8000/redoc/).
+### Important comments
+in case I am a stupid man and do not know how to work with docker (i.e. you could not deploy using docker): be sure that you are in directory with `manage.py` and run 
+```
+python manage.py runserver 0.0.0.0:8000
+```
+I hope now you can see the cause of my insomnia.
